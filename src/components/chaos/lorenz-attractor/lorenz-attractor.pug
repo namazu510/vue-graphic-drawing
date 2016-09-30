@@ -1,0 +1,12 @@
+#lorenz-attractor
+    #digest
+        h2 ローレンツ方程式
+    .param
+        label a
+        input(type="number",step="0.01",v-model="param.a",:disabled="drawNow")
+        labal b
+        input(type="number",step="0.01",v-model="param.b",:disabled="drawNow")
+
+        button(v-if="!drawNow",@click="draw()") これで描く！
+        button(v-if="drawNow",@click="drawStop()") 描画停止！
+    canvas#canvas(:width="width",:height="height")
