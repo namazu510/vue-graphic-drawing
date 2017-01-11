@@ -24,7 +24,7 @@
     "html-webpack-plugin": "^2.22.0",
     "node-sass": "^4.1.1",
     "pug": "^2.0.0-beta6",
-    "pug-html-loader": "^1.0.8",
+    "pug-html-loader": "^1.1.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "ts-loader": "^1.3.3",
