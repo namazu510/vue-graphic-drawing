@@ -22,7 +22,7 @@
     "file-loader": "^0.9.0",
     "gh-pages": "^0.12.0",
     "html-webpack-plugin": "^2.22.0",
-    "node-sass": "^4.1.1",
+    "node-sass": "^4.3.0",
     "pug": "^2.0.0-beta6",
     "pug-html-loader": "^1.0.8",
     "sass-loader": "^4.0.2",
